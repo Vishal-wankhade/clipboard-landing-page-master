@@ -1,0 +1,434 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+main{
+  border:1px solid #fff0;
+  height:650px;
+  width:100%;
+  background: url("images/bg-header-mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main figure{
+  height: 126px;
+  width: 126px;
+  /* border:1px solid red; */
+  margin:130px auto 50px auto;
+}
+ h1{
+  text-align: center;
+  color:hsl(210, 10%, 33%);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 25px;
+  padding:0px 35px 0px 35px;
+}
+ p{
+  text-align: center;
+  color:hsl(201, 11%, 66%);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 16px;
+  padding:20px 14px 0px 14px;
+}
+main .ios{
+  height: 50px;
+  width: 300px;
+  border-radius:50px;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  display: block;
+  margin:40px auto 20px auto;
+  box-shadow: 13px 22px 30px -8px rgba(38,186,164,0.73);
+-webkit-box-shadow: 13px 22px 30px -8px rgba(38,186,164,0.73);
+-moz-box-shadow: 13px 22px 30px -8px rgba(38,186,164,0.73);
+border:0px;
+}
+main button{
+  cursor: pointer;
+}
+main button:hover{
+   opacity: 0.6;
+
+}
+main .mac{
+    height: 50px;
+    width: 300px;
+    border-radius:50px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    display: block;
+    margin:0px auto;
+    border:0px;
+    box-shadow: 13px 22px 30px -8px rgba(97,115,255,0.73);
+-webkit-box-shadow: 13px 22px 30px -8px rgba(97,115,255,0.73);
+-moz-box-shadow: 13px 22px 30px -8px rgba(97,115,255,0.73);
+  }
+  article{
+    /* border:1px solid blue; */
+    height:1130px;
+    width:100%;
+    background: white;
+  }
+  .desk{
+    /* border:1px solid blue; */
+    height:200px;
+    width:260px;
+  }
+  .desk img{
+    height:100%;
+    width: 100%;
+  }
+  .track h1{
+    padding-top:50px;
+  }
+  .track .keep{
+    padding-top:100px;
+  }
+
+  .track figure{
+    margin:60px auto 0px auto;
+    display:block;
+  }
+  .second{
+    /* border:1px solid blue; */
+    height:470px;
+    width:100%;
+    background: white;
+  }
+  .second figure{
+    /* border:1px solid blue; */
+    height:180px;
+    width:280px;
+    background:url("images/image-devices.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:60px auto 0px auto;
+    padding:0px;
+  }
+  .third{
+    /* border:1px solid blue; */
+    height:850px;
+    width:100%;
+    background: white;
+  }
+  .blacklists{
+    margin-top:70px;
+  }
+  .blacklists h1{
+    padding-top:30px;
+  }
+  .text{
+    margin-top: 50px;
+  }
+  .text h1{
+    padding-top:30px;
+  }
+  .preview{
+    margin-top:50px;
+  }
+  .preview h1{
+    padding-top:30px;
+  }
+
+  .third img{
+    margin: auto;
+    display: block;
+  }
+  .fourth{
+    /* border:1px solid blue; */
+    height:600px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-content: center;
+    align-items: center;
+  }
+  .fourth img{
+    display: block;
+    height:30px;
+    width:100px;
+  }
+.five h1{
+  padding-top:50px;
+}
+.five .ios{
+  height: 50px;
+  width: 300px;
+  border-radius:50px;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  display: block;
+  margin:40px auto 20px auto;
+  box-shadow: 13px 22px 30px -8px rgba(38,186,164,0.73);
+-webkit-box-shadow: 13px 22px 30px -8px rgba(38,186,164,0.73);
+-moz-box-shadow: 13px 22px 30px -8px rgba(38,186,164,0.73);
+border:0px;
+}
+.five{
+  height:500px;
+}
+.five button{
+  cursor: pointer;
+}
+.five button:hover{
+   opacity: 0.6;
+
+}
+.five .mac{
+    height: 50px;
+    width: 300px;
+    border-radius:50px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    display: block;
+    margin:0px auto;
+    border:0px;
+    box-shadow: 13px 22px 30px -8px rgba(97,115,255,0.73);
+-webkit-box-shadow: 13px 22px 30px -8px rgba(97,115,255,0.73);
+-moz-box-shadow: 13px 22px 30px -8px rgba(97,115,255,0.73);
+  }
+.six{
+  height: 500px;
+  width: 100%;
+  border: 1px solid #fff0;
+  background: #F5F6F8;
+}
+.f-logo{
+  height:50px;
+  width: 50px;
+  /* border: 1px solid red; */
+  margin:40px auto;
+}
+.f-logo img{
+  height: 100%;
+  width: 100%;
+}
+.links{
+  height:250px;
+  width: 200px;
+  /* border: 1px solid red; */
+  margin:40px auto;
+
+
+}
+.links .links-box{
+ width: 100%;
+ /* border: 1px solid gray; */
+}
+.links-box a{
+ display: block;
+  margin:25px 0px;
+  color: hsl(210, 10%, 33%);
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-decoration: none;
+    text-align: center;
+}
+.five button:hover{
+   opacity: 0.6;
+}
+.links-box a:hover{
+  color:hsl(171, 66%, 44%);
+}
+.sm{
+  height:40px;
+  width: 200px;
+  /* border: 1px solid red; */
+  margin:40px auto;
+}
+.sm ul{
+  list-style: none;
+}
+.sm ul li{
+  float: left;
+  padding: 0px 20px;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 600px)
+{
+  main{
+    height: 600px;
+  }
+.btn-first{
+  height: 60px;
+  width:700px;
+  /* border: 1px solid green; */
+  margin:40px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .ios{
+  margin:0px 0px;
+}
+main .mac{
+  margin: 0px;
+}
+.five{
+  height: 350px;
+}
+.five .ios{
+  margin: 0px;
+}
+.btn-sec{
+  height: 60px;
+  width:700px;
+  /* border: 1px solid green; */
+  margin:40px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+  .track{
+    height:800px;
+  }
+  .track figure{
+    margin-left:0px;
+
+  }
+  .desk{
+    height:400px;
+    width:60%;
+    margin-left:0px;
+    background-position:center;
+    float: left;
+  }
+  aside{
+   width:35%;
+   /* border:1px solid red; */
+   float: right;
+  }
+  aside h1, aside p{
+    text-align:left;
+    padding-left: 0px;
+  }
+  .second{
+    height:500px;
+  }
+  .second p{
+    padding: 20px 160px 0px 160px;
+  }
+  .second figure{
+    height: 340px;
+width: 515px;
+  background-size: contain;
+  }
+  .third {
+    margin-top: 120px;
+    height:400px;
+  }
+
+
+  .third img{
+    height: 50px;
+width: 60px;
+}
+  .inline{
+    /* border:1px solid red; */
+      height:300px;
+      margin-top: 40px;
+      display: flex;
+      justify-content:space-around;
+  }
+  .blacklists {
+      margin-top: 50px;
+      /* border: 1px solid green; */
+      width:30%;
+  }
+  .text{
+    /* border: 1px solid green; */
+  }
+  .preview{ 
+    /* border: 1px solid green; */
+  }
+.fourth{
+ flex-direction: row;
+ height:300px;
+}
+
+.five p{
+  padding: 20px 160px 0px 160px;
+}
+.six{
+  height: 200px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  background-color: #F5F6F8;
+}
+.links{
+ height:120px;
+ width: 320px;
+
+}
+.links .links-box{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+  flex: 1;
+
+}
+.links-box a{
+ margin:0px 30px 20px 0px;
+
+}
+@media only screen and (min-width: 1000px){
+   .desk{
+     height:500px;
+   }
+   .second{
+     height: 600px;
+   }
+   .second h1{
+     padding-top: 80px;
+   }
+   main p{
+       padding:20px 300px 0px 300px;
+   }
+   .clip{
+     padding-left: 300px;
+     padding-right: 300px;
+   }
+   aside{
+     margin-top:60px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
